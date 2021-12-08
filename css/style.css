@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-ExtraLightItalic.eot");
+  src: local("URW Geometric ExtLt Ita"), local("URWGeometric-ExtraLightItalic"), url("URWGeometric-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-ExtraLightItalic.woff2") format("woff2"), url("URWGeometric-ExtraLightItalic.woff") format("woff"), url("URWGeometric-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-SemiBold.eot");
+  src: local("URW Geometric Semi Bold"), local("URWGeometric-SemiBold"), url("URWGeometric-SemiBold.eot?#iefix") format("embedded-opentype"), url("URWGeometric-SemiBold.woff2") format("woff2"), url("URWGeometric-SemiBold.woff") format("woff"), url("URWGeometric-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Italic.eot");
+  src: local("URW Geometric Italic"), local("URWGeometric-Italic"), url("URWGeometric-Italic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Italic.woff2") format("woff2"), url("URWGeometric-Italic.woff") format("woff"), url("URWGeometric-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Thin.eot");
+  src: local("URW Geometric Thin"), local("URWGeometric-Thin"), url("URWGeometric-Thin.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Thin.woff2") format("woff2"), url("URWGeometric-Thin.woff") format("woff"), url("URWGeometric-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-LightItalic.eot");
+  src: local("URW Geometric Light Italic"), local("URWGeometric-LightItalic"), url("URWGeometric-LightItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-LightItalic.woff2") format("woff2"), url("URWGeometric-LightItalic.woff") format("woff"), url("URWGeometric-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-BlackItalic.eot");
+  src: local("URW Geometric Black Italic"), local("URWGeometric-BlackItalic"), url("URWGeometric-BlackItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-BlackItalic.woff2") format("woff2"), url("URWGeometric-BlackItalic.woff") format("woff"), url("URWGeometric-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-ExtraLight.eot");
+  src: local("URW Geometric Extra Light"), local("URWGeometric-ExtraLight"), url("URWGeometric-ExtraLight.eot?#iefix") format("embedded-opentype"), url("URWGeometric-ExtraLight.woff2") format("woff2"), url("URWGeometric-ExtraLight.woff") format("woff"), url("URWGeometric-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-HeavyItalic.eot");
+  src: local("URW Geometric Heavy Italic"), local("URWGeometric-HeavyItalic"), url("URWGeometric-HeavyItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-HeavyItalic.woff2") format("woff2"), url("URWGeometric-HeavyItalic.woff") format("woff"), url("URWGeometric-HeavyItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-BoldItalic.eot");
+  src: local("URW Geometric Bold Italic"), local("URWGeometric-BoldItalic"), url("URWGeometric-BoldItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-BoldItalic.woff2") format("woff2"), url("URWGeometric-BoldItalic.woff") format("woff"), url("URWGeometric-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Black.eot");
+  src: local("URW Geometric Black"), local("URWGeometric-Black"), url("URWGeometric-Black.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Black.woff2") format("woff2"), url("URWGeometric-Black.woff") format("woff"), url("URWGeometric-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Bold.eot");
+  src: local("URW Geometric Bold"), local("URWGeometric-Bold"), url("URWGeometric-Bold.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Bold.woff2") format("woff2"), url("URWGeometric-Bold.woff") format("woff"), url("URWGeometric-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Light.eot");
+  src: local("URW Geometric Light"), local("URWGeometric-Light"), url("URWGeometric-Light.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Light.woff2") format("woff2"), url("URWGeometric-Light.woff") format("woff"), url("URWGeometric-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-ExtraBoldItalic.eot");
+  src: local("URW Geometric Extra Bold Italic"), local("URWGeometric-ExtraBoldItalic"), url("URWGeometric-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-ExtraBoldItalic.woff2") format("woff2"), url("URWGeometric-ExtraBoldItalic.woff") format("woff"), url("URWGeometric-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Heavy.eot");
+  src: local("URW Geometric Heavy"), local("URWGeometric-Heavy"), url("URWGeometric-Heavy.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Heavy.woff2") format("woff2"), url("URWGeometric-Heavy.woff") format("woff"), url("URWGeometric-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Regular.eot");
+  src: local("URW Geometric Regular"), local("URWGeometric-Regular"), url("URWGeometric-Regular.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Regular.woff2") format("woff2"), url("URWGeometric-Regular.woff") format("woff"), url("URWGeometric-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-Medium.eot");
+  src: local("URW Geometric Medium"), local("URWGeometric-Medium"), url("URWGeometric-Medium.eot?#iefix") format("embedded-opentype"), url("URWGeometric-Medium.woff2") format("woff2"), url("URWGeometric-Medium.woff") format("woff"), url("URWGeometric-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-ExtraBold.eot");
+  src: local("URW Geometric Extra Bold"), local("URWGeometric-ExtraBold"), url("URWGeometric-ExtraBold.eot?#iefix") format("embedded-opentype"), url("URWGeometric-ExtraBold.woff2") format("woff2"), url("URWGeometric-ExtraBold.woff") format("woff"), url("URWGeometric-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-SemiBoldItalic.eot");
+  src: local("URW Geometric Semi Bold Italic"), local("URWGeometric-SemiBoldItalic"), url("URWGeometric-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-SemiBoldItalic.woff2") format("woff2"), url("URWGeometric-SemiBoldItalic.woff") format("woff"), url("URWGeometric-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-MediumItalic.eot");
+  src: local("URW Geometric Medium Italic"), local("URWGeometric-MediumItalic"), url("URWGeometric-MediumItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-MediumItalic.woff2") format("woff2"), url("URWGeometric-MediumItalic.woff") format("woff"), url("URWGeometric-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Geometric";
+  src: url("../fonts/URWGeometric-ThinItalic.eot");
+  src: local("URW Geometric Thin Italic"), local("URWGeometric-ThinItalic"), url("URWGeometric-ThinItalic.eot?#iefix") format("embedded-opentype"), url("URWGeometric-ThinItalic.woff2") format("woff2"), url("URWGeometric-ThinItalic.woff") format("woff"), url("URWGeometric-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
